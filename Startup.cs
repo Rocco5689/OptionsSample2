@@ -16,7 +16,6 @@ namespace ServiceOptionsSample
 
         public IConfiguration Configuration { get; set; }
 
-
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOptions();
@@ -24,13 +23,16 @@ namespace ServiceOptionsSample
             services.Configure<MyOptions>(Configuration);
 
             services.AddScoped<ValueService>();
+            services.AddSingleton<MyService>();
             services.AddScoped<IConfigureOptions<MyOptions>, ConfigureMySettings>();
 
+            #region Attributing Configuration Values in Startup
             //services.Configure<MyOptions>(Configuration.GetSection("MyOptions"));
             //services.AddMyService(options =>
             //{
             //    options.MyValue = "This value was set in ConfigureServices";
             //});
+            #endregion
 
             services.AddControllers();
         }

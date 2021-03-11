@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lmSNryJPHtfC+n9fR4t9HoHZ0N8cqPc239dubbWixKuy3S0wpkbP9z27ce0tmk9luBhLKzsnLwqr6tRlohTJSQ==",
+  "dgSpecHash": "jWhZLkxMu4lyd/Uep7wN+SJspPTDt66W6G/AIVeWadJHWoSMP2hBqUT9YVYE5bwUIPDuzMb+D473tObprdTx6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\macavall\\Desktop\\ELX\\AspNetCore.Docs\\aspnetcore\\fundamentals\\configuration\\options\\samples\\3.x\\ServiceOptionsSample\\ServiceOptionsSample.csproj",
+  "projectFilePath": "C:\\Users\\macavall\\Documents\\ELX\\OptionsSample\\OptionsSample\\ServiceOptionsSample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\macavall\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\macavall\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"

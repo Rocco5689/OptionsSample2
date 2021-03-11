@@ -75,19 +75,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\macavall\\.nuget\\packages\\": {}
+    "C:\\Users\\macavall\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\macavall\\Desktop\\ELX\\AspNetCore.Docs\\aspnetcore\\fundamentals\\configuration\\options\\samples\\3.x\\ServiceOptionsSample\\ServiceOptionsSample.csproj",
+      "projectUniqueName": "C:\\Users\\macavall\\Documents\\ELX\\OptionsSample\\OptionsSample\\ServiceOptionsSample.csproj",
       "projectName": "ServiceOptionsSample",
-      "projectPath": "C:\\Users\\macavall\\Desktop\\ELX\\AspNetCore.Docs\\aspnetcore\\fundamentals\\configuration\\options\\samples\\3.x\\ServiceOptionsSample\\ServiceOptionsSample.csproj",
+      "projectPath": "C:\\Users\\macavall\\Documents\\ELX\\OptionsSample\\OptionsSample\\ServiceOptionsSample.csproj",
       "packagesPath": "C:\\Users\\macavall\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\macavall\\Desktop\\ELX\\AspNetCore.Docs\\aspnetcore\\fundamentals\\configuration\\options\\samples\\3.x\\ServiceOptionsSample\\obj\\",
+      "outputPath": "C:\\Users\\macavall\\Documents\\ELX\\OptionsSample\\OptionsSample\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\macavall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
